@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MultiNodeTreePickerEditor</id>
+    <version>1.0.3</version>
+    <authors>westfall, Obviuse, Per Hemmingson</authors>
+    <owners>Obviuse</owners>    
+    <projectUrl>https://gist.github.com/westfall/22dc3fe56a27f816ba0b</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Umbraco Multi Tree node picker to use in macros etc.</description>  
+  </metadata>
+  <files>    
+    <file src="*.*" target="content\App_Plugins\MultiNodeTreePickerEditor" />
+    <file src="assets\**\*.css" target="content\App_Plugins\MultiNodeTreePickerEditor\assets" />
+  </files>
+</package>

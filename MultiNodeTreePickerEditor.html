@@ -1,0 +1,13 @@
+<div class="MultiNodeTreePickerEditor" ng-controller="MultiNodeTreePickerEditor.controller">
+
+    <i class="icon icon-add blue"></i>
+    <a href ng-click="pickContent(item)">link</a>
+
+    <ul ui-sortable="sortableOptions" ng-model="model.value">
+        <li class="link" ng-repeat="node in model.value">
+            <i class="icon icon-delete" ng-click="remove(node)"></i>
+            {{node.name}}
+            <i class="icon icon-navigation handle"></i>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,18 @@
+{   
+    propertyEditors: [      
+        {
+            alias: "MultiNodeTreePickerEditor",
+            name: "Multi Node Tree Picker Editor",
+			isParameterEditor: true,
+			hideLabel: true,
+            editor: {
+                view: "~/App_Plugins/MultiNodeTreePicker/MultiNodeTreePickerEditor.html",
+				valueType: "JSON"
+            }
+        }
+    ]
+    ,
+    javascript: [
+        '~/App_Plugins/MultiNodeTreePicker/MultiNodeTreePickerEditor.controller.js'
+    ]
+}
